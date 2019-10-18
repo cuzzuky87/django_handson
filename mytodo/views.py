@@ -5,4 +5,4 @@ from mytodo.models import Task
 
 class TaskListView(ListView):
     model = Task
-    template = 'mytodo/list.html'
+    template_name = 'mytodo/list.html'
